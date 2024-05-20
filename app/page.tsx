@@ -1,11 +1,12 @@
 'use client'
 
+import MyThirdComponent from '@/components/MyThirdComponent'
 import SecondCounter from '@/components/SecondCounter'
 
 const Home = () => {
   return (
     <section>
-      <SecondCounter />
+      <MyThirdComponent />
     </section>
   )
 }
