@@ -1,19 +1,6 @@
 import Image from 'next/image'
 import React, { useEffect, useState } from 'react'
 
-type Product = {
-  id: number
-  title: string
-  description: string
-  price: number
-  category: string
-  discountPercentage: number
-  rating: number
-  stock: number
-  brand: number
-  thumbnail: string
-}
-
 const MyThirdComponent = () => {
   const [data, setData] = useState<Product | null>(null)
 
