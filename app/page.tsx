@@ -4,9 +4,7 @@ import React from 'react'
 const Home = () => {
   return (
     <section>
-      <User>
-        <p>This is taking children</p>
-      </User>
+      <User name='Martin' age={20} />
     </section>
   )
 }

@@ -1,14 +1,14 @@
-import { ReactNode } from "react"
+import { FC } from 'react'
 
-// type UserProps = { name: string; age: number; isStudent: boolean }
-interface UserProps {
-  children: ReactNode
+type Shape = {
+  name: string
+  age: number
 }
-
-const User = ({ children }: UserProps) => {
+const User: FC<Shape> = ({ name, age }) => {
   return (
     <main>
-      {children}
+      <h1>{name}</h1>
+      <p>Age: {age}</p>
     </main>
   )
 }
