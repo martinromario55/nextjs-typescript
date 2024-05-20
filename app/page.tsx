@@ -4,7 +4,9 @@ import React from 'react'
 const Home = () => {
   return (
     <section>
-      <User name="alex" age={20} isStudent={true} />
+      <User>
+        <p>This is taking children</p>
+      </User>
     </section>
   )
 }
